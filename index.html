@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Freelance Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Freelance Dashboard</h1>
+        <nav>
+            <a href="index.html">Dashboard</a>
+            <a href="clients.html">Clients</a>
+            <a href="invoices.html">Invoices</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard-cards">
+            <div class="card">
+                <h3>Total Clients</h3>
+                <p id="totalClients">0</p>
+            </div>
+            <div class="card">
+                <h3>Total Invoices</h3>
+                <p id="totalInvoices">0</p>
+            </div>
+            <div class="card">
+                <h3>Total Value</h3>
+                <p id="totalValue">$0</p>
+            </div>
+            <div class="card">
+                <h3>Paid / Unpaid</h3>
+                <p id="paidStats">0 / 0</p>
+            </div>
+        </section>
+
+        <section class="quote-section">
+            <h2>Motivational Quote</h2>
+            <blockquote id="quoteText">Loading...</blockquote>
+            <p id="quoteAuthor">—</p>
+        </section>
+    </main>
+</body>
+
+</html>
